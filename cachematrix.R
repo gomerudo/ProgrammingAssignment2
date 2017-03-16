@@ -6,11 +6,7 @@
 
 ## This function encapsulates a matrix and its inverse. It provides the next
 ## methods:
-##      1. getMatrix
-##      2. setMatrix
-##      2. getInversedMatrix
-##      4. setInversedMatrix
-makeCacheMatrix <- function(x = matrix()) {
+mcm <- function(x = matrix()) {
     # Initialization
     matrixInverse <- NULL
     
